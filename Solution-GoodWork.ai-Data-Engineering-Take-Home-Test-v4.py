@@ -660,6 +660,11 @@ result = current_implementation(df, time_filter, dim_filters)
 # COMMAND ----------
 
 # MAGIC %md
+# MAGIC ##### Query Execution Duration: 63 seconds
+
+# COMMAND ----------
+
+# MAGIC %md
 # MAGIC ##### **Proposed Solutions**
 # MAGIC
 # MAGIC ##### **Issues in Main Code**
@@ -889,6 +894,11 @@ result = optimized_implementation(df, time_filter, dim_filters)
 
 # display(spark.createDataFrame(result))
 # display(result)
+
+# COMMAND ----------
+
+# MAGIC %md
+# MAGIC #### Query Execution Duration: 4 seconds
 
 # COMMAND ----------
 
